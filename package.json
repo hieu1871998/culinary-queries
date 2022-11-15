@@ -9,6 +9,8 @@
     "test": "jest --config jest.config.json",
     "prepare" : "npm run build",
     "prepublishOnly" : "npm test",
+    "preversion": "",
+    "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [],
